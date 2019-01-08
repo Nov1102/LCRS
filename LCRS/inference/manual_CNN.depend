@@ -1,0 +1,188 @@
+# depslib dependency file v1.0
+1543908488 source:/home/carrera/c++_primer_plus/manual_CNN/main.cpp
+	"manualCNN.h"
+	"time.h"
+
+1543828423 /home/carrera/c++_primer_plus/manual_CNN/manualCNN.h
+	<Eigen/Core>
+	"Config.h"
+	"RNG.h"
+	"Layer.h"
+	"Layer/FullyConnected.h"
+	"Layer/Convolutional.h"
+	"Layer/MaxPooling.h"
+	"Activation/ReLU.h"
+	"Activation/Identity.h"
+	"Activation/Sigmoid.h"
+	"Activation/Softmax.h"
+	"Output.h"
+	"Output/RegressionMSE.h"
+	"Output/BinaryClassEntropy.h"
+	"Output/MultiClassEntropy.h"
+	"Optimizer.h"
+	"Optimizer/SGD.h"
+	"Optimizer/AdaGrad.h"
+	"Optimizer/RMSProp.h"
+	"Callback.h"
+	"Callback/VerboseCallback.h"
+	"Network.h"
+
+1543828174 /home/carrera/c++_primer_plus/manual_CNN/Config.h
+
+1543909494 /home/carrera/c++_primer_plus/manual_CNN/RNG.h
+
+1543828212 /home/carrera/c++_primer_plus/manual_CNN/Layer.h
+	<Eigen/Core>
+	<vector>
+	"Config.h"
+	"RNG.h"
+	"Optimizer.h"
+
+1543828286 /home/carrera/c++_primer_plus/manual_CNN/Optimizer.h
+	<Eigen/Core>
+	"Config.h"
+
+1543827684 /home/carrera/c++_primer_plus/manual_CNN/Layer/FullyConnected.h
+	<Eigen/Core>
+	<vector>
+	<stdexcept>
+	"../Config.h"
+	"../Layer.h"
+	"../Utils/Random.h"
+
+1543828100 /home/carrera/c++_primer_plus/manual_CNN/Utils/Random.h
+	<Eigen/Core>
+	"../Config.h"
+	"../RNG.h"
+
+1543909831 /home/carrera/c++_primer_plus/manual_CNN/Layer/Convolutional.h
+	<Eigen/Core>
+	<vector>
+	<stdexcept>
+	"../Config.h"
+	"../Layer.h"
+	"../Utils/Convolution.h"
+	"../Utils/Random.h"
+
+1543828020 /home/carrera/c++_primer_plus/manual_CNN/Utils/Convolution.h
+	<Eigen/Core>
+	"../Config.h"
+
+1543909781 /home/carrera/c++_primer_plus/manual_CNN/Layer/MaxPooling.h
+	<Eigen/Core>
+	<vector>
+	<stdexcept>
+	"../Config.h"
+	"../Layer.h"
+	"../Utils/FindMax.h"
+
+1543828060 /home/carrera/c++_primer_plus/manual_CNN/Utils/FindMax.h
+	"../Config.h"
+
+1543827392 /home/carrera/c++_primer_plus/manual_CNN/Activation/ReLU.h
+	<Eigen/Core>
+	"../Config.h"
+
+1543827367 /home/carrera/c++_primer_plus/manual_CNN/Activation/Identity.h
+	<Eigen/Core>
+	"../Config.h"
+
+1543827424 /home/carrera/c++_primer_plus/manual_CNN/Activation/Sigmoid.h
+	<Eigen/Core>
+	"../Config.h"
+
+1543827452 /home/carrera/c++_primer_plus/manual_CNN/Activation/Softmax.h
+
+1543828319 /home/carrera/c++_primer_plus/manual_CNN/Output.h
+	<Eigen/Core>
+	<stdexcept>
+	"Config.h"
+
+1543827947 /home/carrera/c++_primer_plus/manual_CNN/Output/RegressionMSE.h
+	<Eigen/Core>
+	<stdexcept>
+	"../Config.h"
+
+1543827886 /home/carrera/c++_primer_plus/manual_CNN/Output/BinaryClassEntropy.h
+	<Eigen/Core>
+	<stdexcept>
+	"../Config.h"
+
+1543827920 /home/carrera/c++_primer_plus/manual_CNN/Output/MultiClassEntropy.h
+	<Eigen/Core>
+	<stdexcept>
+	"../Config.h"
+
+1543827850 /home/carrera/c++_primer_plus/manual_CNN/Optimizer/SGD.h
+	<Eigen/Core>
+	"../Config.h"
+	"../Optimizer.h"
+
+1543827804 /home/carrera/c++_primer_plus/manual_CNN/Optimizer/AdaGrad.h
+	<Eigen/Core>
+	"../Config.h"
+	"../Optimizer.h"
+	"../Utils/sparsepp.h"
+
+1543824591 /home/carrera/c++_primer_plus/manual_CNN/Utils/sparsepp.h
+	<cpuid.h>
+	<cpuid.h>
+	<cstddef>
+	<stddef.h>
+	<intrin.h>
+	<cstdint>
+	<inttypes.h>
+	<stdint.h>
+	<cassert>
+	<cstring>
+	<string>
+	<limits>
+	<algorithm>
+	<iterator>
+	<functional>
+	<memory>
+	<cstdlib>
+	<cstddef>
+	<new>
+	<stdexcept>
+	<utility>
+	<cstdio>
+	<iosfwd>
+	<ios>
+	<initializer_list>
+	<functional>
+	<hash_map>
+	<functional>
+	<tr1/unordered_map>
+	<functional>
+	<tr1/unordered_map>
+	<functional>
+
+1543827826 /home/carrera/c++_primer_plus/manual_CNN/Optimizer/RMSProp.h
+	<Eigen/Core>
+	"../Config.h"
+	"../Optimizer.h"
+	"../Utils/sparsepp.h"
+
+1543828150 /home/carrera/c++_primer_plus/manual_CNN/Callback.h
+	<Eigen/Core>
+	"Config.h"
+
+1543827482 /home/carrera/c++_primer_plus/manual_CNN/Callback/VerboseCallback.h
+	<Eigen/Core>
+	<iostream>
+	"../Config.h"
+	"../Callback.h"
+	"../Network.h"
+
+1543828246 /home/carrera/c++_primer_plus/manual_CNN/Network.h
+	<Eigen/Core>
+	<vector>
+	<stdexcept>
+	"Config.h"
+	"RNG.h"
+	"Layer.h"
+	"Output.h"
+	"Callback.h"
+	"Utils/Random.h"
+
